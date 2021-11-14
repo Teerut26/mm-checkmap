@@ -36,7 +36,7 @@ function LogBox(props) {
 
   return (
     <div className="border-2 w-full bg-dark text-light h-full border-0 rounded-lg p-2 h-new flex flex-col gap-2">
-      <div className="text-2xl px-2">Plate Log</div>
+      <div className="text-2xl px-2">Log</div>
       <div className="p-2 h-full">
         <textarea
           ref={Log}
